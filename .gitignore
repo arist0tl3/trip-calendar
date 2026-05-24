@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Build artifacts
+dist/
+*.zip
+!docs/**/*.zip
+
+# Node (in case you add a build step later)
+node_modules/
+
+# Logs
+*.log
+
+# Local-only files
+.env
+.env.local
